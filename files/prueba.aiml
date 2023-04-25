@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Insertar categorias-->
+	
+	<!-- Saludos -->
+<category>
+  <pattern>Hola</pattern>
+  <template>¡Hola! ¿Cómo puedo ayudarte hoy? </template>
+</category>
+
+<category>
+  <pattern>¿Cómo estás?</pattern>
+  <template>Estoy bien, gracias por preguntar. ¿Y tú? </template>
+</category>
+
+<!-- Preguntas sobre la ansiedad -->
+<category>
+  <pattern>¿Qué es la ansiedad?</pattern>
+  <template>
+    La ansiedad es una respuesta natural del cuerpo ante situaciones de estrés o peligro. Puede manifestarse como preocupación excesiva, nerviosismo, inquietud y otros síntomas. ¿Necesitas más información sobre la ansiedad?
+  </template>
+</category>
+<category>
+  <pattern>¿Cuáles son los síntomas de la ansiedad?</pattern>
+  <template>
+    Los síntomas de la ansiedad pueden incluir palpitaciones, sudoración, temblores, sensación de falta de aire, inquietud y otros. Es importante hablar con un profesional de la salud para obtener un diagnóstico adecuado. ¿Quieres que te brinde más detalles sobre los síntomas de la ansiedad?
+  </template>
+</category>
+
+<!-- Respuestas aleatorias -->
+<category>
+  <pattern>¿Qué puedo hacer para controlar mi ansiedad?</pattern>
+  <template>
+    <random>
+       
+      <li>La meditación puede ayudar a reducir la ansiedad</li>
+      <li>Respirar profundamente y lentamente puede ser útil</li>
+      <li>Trata de identificar lo que te está haciendo sentir ansioso y trata de resolverlo</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>¿Cómo puedo manejar los ataques de pánico?</pattern>
+  <template>
+    <random>
+      <li>Trata de centrarte en tu respiración y en tu cuerpo</li>
+      <li>Haz ejercicios de relajación muscular progresiva</li>
+      <li>Intenta distraerte haciendo algo que disfrutes</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>¿Qué puedo hacer para sentirme mejor?</pattern>
+  <template>
+    <random>
+      <li>Trata de practicar la relajación y la meditación</li>
+      <li>Busca un pasatiempo que te guste y te relaje</li>
+      <li>Habla con alguien de confianza acerca de tus preocupaciones</li>
+    </random>
+  </template>
+</category>
+
+<category>
+  <pattern>¿Qué puedo hacer para manejar mis síntomas de ansiedad?</pattern>
+  <template>
+    <random>
+      <li>Prueba técnicas de respiración y relajación muscular</li>
+      <li>Considera buscar ayuda profesional, como terapia o medicación</li>
+      <li>Busca actividades que te ayuden a distraerte y a reducir el estrés</li>
+    </random>
+  </template>
+</category>
+
+
+<!-- Estrategias de afrontamiento -->
+<category>
+  <pattern>¿Qué puedo hacer para manejar la ansiedad?</pattern>
+  <template>
+    Aquí hay algunas estrategias que pueden ayudarte a manejar la ansiedad:
+    <ul>
+      <li>Practicar técnicas de respiración y relajación</li>
+      <li>Realizar ejercicio regularmente</li>
+      <li>Estar en contacto con personas de confianza</li>
+      <li>Evitar el consumo de cafeína y alcohol en exceso</li>
+      <li>Buscar ayuda profesional, como terapia o medicación</li>
+    </ul>
+    ¿Necesitas más información sobre alguna de estas estrategias?
+  </template>
+</category>
+
+<!-- Respuestas basadas en contexto -->
+<category>
+  <pattern>No sé qué hacer con mi ansiedad</pattern>
+  <template>Entiendo que te sientas así. ¿Puedes decirme más acerca de lo que te está preocupando?</template>
+</category>
+<category>
+  <pattern>¿Qué puedo hacer para calmarme?</pattern>
+  <template>
+    <srai>¿Cuál es la causa de tu ansiedad? Podemos trabajar juntos para encontrar estrategias que te ayuden a manejarla.</srai>
+  </template>
+</category>
+<category>
+  <pattern>Me siento muy ansioso</pattern>
+  <template>Entiendo lo difícil que puede ser. ¿Quieres hablar más sobre lo que está pasando?</template>
+</category>
+
+
+<!-- Despedidas -->
+<category>
+  <pattern>Adiós</pattern>
+  <template>¡Hasta luego! Espero haberte ayudado. Si necesitas algo más, no dudes en preguntarme.</template>
+</category>
+<category>
+  <pattern>Chao</pattern>
+  <template>¡Hasta pronto! Espero que te sientas mejor.</template>
+</category>
+
+</aiml>
